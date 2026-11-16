@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "id": "entradas", "name": "Entradas", "name_ja": "前菜",
+      "items": [
+        { "id": "edamame", "name": "Edamame", "name_ja": "枝豆", "description": "Vagens de soja cozidas com sal grosso.", "price_cents": 1800, "image": "/menu/edamame.jpg" },
+        { "id": "guioza", "name": "Guioza", "name_ja": "餃子", "description": "Seis unidades de pastel japonês grelhado, recheado com carne suína.", "price_cents": 2800, "image": "/menu/guioza.jpg" },
+        { "id": "sunomono", "name": "Sunomono", "name_ja": "酢の物", "description": "Salada agridoce de pepino com gergelim.", "price_cents": 1600, "image": "/menu/sunomono.jpg" }
+      ]
+    },
+    {
+      "id": "sushi", "name": "Sushi", "name_ja": "寿司",
+      "items": [
+        { "id": "niguiri-salmao", "name": "Niguiri de salmão", "name_ja": "鮭握り", "description": "Dois bolinhos de arroz com fatia de salmão.", "price_cents": 1400, "image": "/menu/niguiri-salmao.jpeg" },
+        { "id": "niguiri-atum", "name": "Niguiri de atum", "name_ja": "鮪握り", "description": "Dois bolinhos de arroz com fatia de atum.", "price_cents": 1600, "image": "/menu/niguiri-atum.jpeg" },
+        { "id": "uramaki-philadelphia", "name": "Uramaki Philadelphia", "name_ja": "裏巻き", "description": "Oito unidades de salmão com cream cheese e cebolinha.", "price_cents": 3200, "image": "/menu/uramaki-philadelphia.jpg" },
+        { "id": "hossomaki-kappa", "name": "Hossomaki de pepino", "name_ja": "かっぱ巻き", "description": "Oito unidades enroladas em alga, com pepino.", "price_cents": 2000, "image": "/menu/hossomaki-pepino.jpg" }
+      ]
+    },
+    {
+      "id": "sashimi", "name": "Sashimi", "name_ja": "刺身",
+      "items": [
+        { "id": "sashimi-salmao", "name": "Sashimi de salmão", "name_ja": "鮭刺身", "description": "Dez fatias de salmão.", "price_cents": 4200, "image": "/menu/sashimi-salmao.jpg" },
+        { "id": "sashimi-atum", "name": "Sashimi de atum", "name_ja": "鮪刺身", "description": "Dez fatias de atum.", "price_cents": 4800, "image": "/menu/sashimi-atum.jpg" }
+      ]
+    },
+    {
+      "id": "quentes", "name": "Pratos quentes", "name_ja": "温かい料理",
+      "items": [
+        { "id": "tempura-camarao", "name": "Tempurá de camarão", "name_ja": "海老天ぷら", "description": "Camarões e legumes empanados, com molho tentsuyu.", "price_cents": 5400, "image": "/menu/tempura-camarao.png" },
+        { "id": "yakisoba", "name": "Yakissoba", "name_ja": "焼きそば", "description": "Macarrão salteado com legumes e frango.", "price_cents": 4200, "image": "/menu/yakissoba.jpeg" },
+        { "id": "lamen", "name": "Lámen shoyu", "name_ja": "醤油ラーメン", "description": "Caldo de shoyu, macarrão, carne suína, ovo e cebolinha.", "price_cents": 4800, "image": "/menu/lamen-shoyu.jpg" }
+      ]
+    },
+    {
+      "id": "bebidas", "name": "Bebidas", "name_ja": "飲み物",
+      "items": [
+        { "id": "cha-verde", "name": "Chá verde", "name_ja": "緑茶", "description": "Quente ou gelado.", "price_cents": 900, "image": "/menu/cha-verde.jpg" },
+        { "id": "agua", "name": "Água mineral", "name_ja": "水", "description": "Com ou sem gás, 500 ml.", "price_cents": 600, "image": "/menu/agua-mineral.jpeg" }
+      ]
+    }
+  ]
+}

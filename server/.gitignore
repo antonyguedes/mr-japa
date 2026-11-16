@@ -1,0 +1,4 @@
+.env
+data/
+/server
+data-server.log
