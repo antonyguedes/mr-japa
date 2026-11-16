@@ -67,7 +67,20 @@ O projeto **Mr Japa** é estruturado em:
 ---
 
 ## Telas da experiência
-<sub>画面構成 · Capturas reais da interface em produção</sub>
+<sub>画面構成 · Vídeo promocional e capturas reais da interface</sub>
+
+<p align="center">
+  <video src="docs/promo.mp4" controls poster="docs/screenshots/hero-banner.jpg" width="100%">
+    <a href="docs/promo.mp4">
+      <img src="docs/screenshots/promo.webp" alt="Vídeo promocional do Mr Japa" width="100%" />
+    </a>
+  </video>
+  <br />
+  <sub>
+    <strong>Vídeo promocional da plataforma (40 s · 1080p)</strong> &nbsp;·&nbsp;
+    <a href="docs/promo.mp4">Assistir / baixar em MP4 com áudio (<code>docs/promo.mp4</code>)</a>
+  </sub>
+</p>
 
 <table>
   <tr>
@@ -261,9 +274,9 @@ cd server && go test ./...
 cd client && pnpm exec tsc --noEmit && pnpm exec eslint . && pnpm build
 ```
 
-### Vídeo promocional (`promo/`)
+### Vídeo promocional
 
-O projeto inclui uma suíte Remotion para renderização de vídeos promocionais em alta definição (`1920×1080`, `30 fps`) mantida localmente em `promo/` (omitida do repositório para manter o clone enxuto).
+O vídeo de apresentação da plataforma está disponível em [`docs/promo.mp4`](docs/promo.mp4) (`1920×1080`, `30 fps`, com áudio) e em prévia animada em [`docs/screenshots/promo.webp`](docs/screenshots/promo.webp). O projeto Remotion fonte usado na composição fica em `promo/` (ignorado no repositório para manter o clone enxuto).
 
 ---
 
